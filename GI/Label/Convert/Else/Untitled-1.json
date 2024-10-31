@@ -1,0 +1,41 @@
+{
+    "场景": "GI",
+    "评分": {
+        
+        // key是excel中值；映射完到COCO中去，2是好的。
+        "0": "2",
+        "1": "1",
+        "2": "0"
+    },
+    // 输入：excel。三列 dicom列/起始帧/结束帧。
+    "ExcelPath": "", 
+    // 输出的Log路径。
+    "LogPath": "E:/Data/US/GI/Temp/Log.txt",
+    "其他信息": [
+        // 路径 1
+        {
+            // 路径名。可以是单个，可以是列表。其中每个是02_first_review_data 或者 03_second_review_data 或者 04_completed_data层级。
+            "dcm_path": "E:/Data/US/GI/Abd/LabelConvertTest/PH-TS_2D_V1.0/03_second_review_data",
+            // DicomTag(0017,0003)，即SeriesDescription.
+            "切面": [
+                "胰腺横切面（胰尾）"
+            ],
+            // 关键点和组织可以只给一个 这里只能是英文了
+            "关键点": [
+                "胰头胰体下分界点",
+                "胰头胰体上分界点",
+                "胰体胰尾下分界点",
+                "胰体胰尾上分界点"
+            ],
+            "组织": [
+                "肠系膜上动脉",
+                "下腔静脉",
+                "脾静脉", 
+                "腹主动脉",
+                "胰体", 
+                "胰头",
+                "胰尾"
+            ]
+        }        
+    ]
+}
