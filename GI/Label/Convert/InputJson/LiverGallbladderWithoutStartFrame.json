@@ -1,0 +1,160 @@
+{
+  "Scene": "GI_Abdomen",
+  "MarkMapping": {
+    "0": 2,
+    "1": 1,
+    "2": 0
+  },
+  "NeedReTrans": [],
+  "LogPath": "E:\\Data\\US\\GI\\Temp\\LiverGallbladder\\",
+  "Information": [
+    {
+      "Name": "肝左叶经腹主动脉",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\LL-AA_2D_V2.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "肝左叶",
+        "左边界",
+        "右边界",
+        "上边界",
+        "下边界",
+        "腹主动脉",
+        "肠系膜上动脉"
+      ]
+    },
+    {
+      "Name": "肝左叶经下腔静脉",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\LL_IVC_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "肝左叶",
+        "肝左边界",
+        "下腔静脉",
+        "肝静脉",
+        "汇入口"
+      ]
+    },
+    {
+      "Name": "门静脉左支矢状部",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\PV-LS_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "门静脉左支"
+      ]
+    },
+    {
+      "Name": "肝右叶厚径",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\RL-MT_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "肝右叶",
+        "上边缘",
+        "下边缘"
+      ]
+    },
+    {
+      "Name": "第一肝门",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\FHH_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "门静脉",
+        "胆囊",
+        "下腔静脉"
+      ]
+    },
+    {
+      "Name": "第二肝门",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\SHH_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "L",
+        "RHV",
+        "MHV",
+        "LHV",
+        "IVC"
+      ]
+    },
+    {
+      "Name": "门静脉右后上支",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\PV-RP_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "门静脉右后支",
+        "门静脉右后上支",
+        "门静脉右后下支"
+      ]
+    },
+    {
+      "Name": "胆囊长轴",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\GB-LA_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "胆囊",
+        "胆囊颈",
+        "胆囊壁"
+      ]
+    },
+    {
+      "Name": "胆囊短轴",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\GB-SA_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "胆囊"
+      ]
+    },
+    {
+      "Name": "肝右肾",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\L-RK_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "肝脏",
+        "右肾_近肝"
+      ]
+    },
+    {
+      "Name": "胆总管",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\CBD_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "肝脏",
+        "胆总管",
+        "门静脉"
+      ]
+    },
+    {
+      "Name": "肝右叶最大斜径",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\RL-MOD_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "肝右叶",
+        "肝静脉",
+        "上边缘",
+        "下边缘"
+      ]
+    }
+  ]
+}

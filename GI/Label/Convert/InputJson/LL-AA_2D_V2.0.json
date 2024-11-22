@@ -1,0 +1,29 @@
+{
+  "Scene": "GI_Abdomen",
+  "MarkMapping": {
+    "0": 2,
+    "1": 1,
+    "2": 0
+  },
+  "NeedReTrans": [],
+  "LogPath": "E:\\Data\\US\\GI\\Temp\\LL-AA_2D_V2.0\\",
+  "Information": [
+    {
+      "Name": "肝左叶经腹主动脉",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\LL-AA_2D_V2.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "肝左叶",
+        "左边界",
+        "右边界",
+        "上边界",
+        "下边界",
+        "腹主动脉",
+        "肠系膜上动脉"
+      ]
+    }
+  ],
+  "StartFrame": "D:\\code\\US\\GI\\Label\\Convert\\StartFrame\\StartFrame\\StratFrame_LL-AA_2D_V2.0.json"
+}

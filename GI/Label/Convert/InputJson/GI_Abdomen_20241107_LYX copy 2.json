@@ -1,0 +1,28 @@
+{
+  "Scene": "GI_Abdomen",
+  "MarkMapping": {
+    "0": 2,
+    "1": 1,
+    "2": 0
+  },
+  "NeedReTrans": [],
+  "LogPath": "E:\\Data\\US\\GI\\Temp\\Yunxu2\\",
+  "Information": [
+    {
+      "Name": "胰尾横切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\PT-TS_2D_V1.0\\04_completed_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "肠系膜上动脉",
+        "下腔静脉",
+        "脾静脉",
+        "腹主动脉",
+        "胰体",
+        "胰头",
+        "胰尾"
+      ]
+    }
+  ]
+}

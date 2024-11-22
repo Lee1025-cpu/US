@@ -1,0 +1,70 @@
+{
+  "Scene": "GI_Abdomen",
+  "MarkMapping": {
+    "0": 2,
+    "1": 1,
+    "2": 0
+  },
+  "NeedReTrans": [],
+  "LogPath": "E:\\Data\\US\\GI\\Temp\\Yunxu1\\",
+  "Information": [
+    {
+      "Name": "左肾短轴切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\LK-SA_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "肾门",
+        "肾脏",
+        "上边界点",
+        "左边界点",
+        "右边界点"
+      ]
+    },
+    {
+      "Name": "右肾短轴切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\RK-SA_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "肾门",
+        "肾脏",
+        "上边界点",
+        "左边界点",
+        "右边界点"
+      ]
+    },
+    {
+      "Name": "膀胱横切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\Bl-TS_2D_V1.0\\04_completed_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "膀胱",
+        "前列腺/子宫",
+        "上边界点",
+        "下边界点",
+        "左边界点",
+        "右边界点"
+      ]
+    },
+    {
+      "Name": "膀胱纵切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\Bl-LS_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "膀胱",
+        "前列腺/子宫",
+        "上边界点",
+        "下边界点",
+        "左边界点",
+        "右边界点"
+      ]
+    }
+  ]
+}
