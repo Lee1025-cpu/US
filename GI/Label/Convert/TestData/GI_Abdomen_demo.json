@@ -5,25 +5,28 @@
     "1": 1,
     "2": 0
   },
+  "NeedReTrans": [],
   "LogPath": "E:\\Data\\US\\GI\\Abd\\LabelConvertTest\\LL-AA_2D_V2.0\\03_second_review_data\\",
-  "Information": {
-    "Name": "肝左叶经腹主动脉",
-    "FilePath": [
-      "E:\\Data\\US\\GI\\Abd\\LabelConvertTest\\LL-AA_2D_V2.0\\03_second_review_data\\"
-    ],
-    "Keypoint": [
-      "左边界点"
-    ],
-    "Segmentation": [
-      "肝左叶",
-      "左边界",
-      "右边界",
-      "上边界",
-      "下边界",
-      "腹主动脉",
-      "肠系膜上动脉"
-    ]
-  },
+  "Information": [
+    {
+      "Name": "肝左叶经腹主动脉",
+      "FilePath": [
+        "E:\\Data\\US\\GI\\Abd\\LabelConvertTest\\LL-AA_2D_V2.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [
+        "左边界点"
+      ],
+      "Segmentation": [
+        "肝左叶",
+        "左边界",
+        "右边界",
+        "上边界",
+        "下边界",
+        "腹主动脉",
+        "肠系膜上动脉"
+      ]
+    }
+  ],
   "StartFrame": {
     "UIH_20240718_0718-001_20240718.102728.977_m_1": 0,
     "UIH_20240718_0718-002_20240718.142216.336_m_1": 0,
