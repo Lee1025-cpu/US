@@ -1,0 +1,26 @@
+{
+  "Scene": "GI_Abdomen",
+  "MarkMapping": {
+    "0": 2,
+    "1": 1,
+    "2": 0
+  },
+  "NeedReTrans": [
+  ],
+  "LogPath": "E:\\Data\\US\\GI\\Temp\\PV-RP_2D_V1.0\\",
+  "Information": [
+    {
+      "Name": "门静脉右后上支切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\PV-RP_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "门静脉右后支",
+        "门静脉右后上支",
+        "门静脉右后下支"
+      ]
+    }
+  ],
+  "StartFrame": "D:\\code\\US\\GI\\Label\\Convert\\StartFrame\\StartFrame\\StratFrame_PV-RP_2D_V1.0.json"
+}

@@ -1,0 +1,26 @@
+{
+  "Scene": "GI_Abdomen",
+  "MarkMapping": {
+    "0": 2,
+    "1": 1,
+    "2": 0
+  },
+  "NeedReTrans": [
+  ],
+  "LogPath": "E:\\Data\\US\\GI\\Temp\\CBD_2D_V1.0\\",
+  "Information": [
+    {
+      "Name": "胆总管切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\CBD_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "肝脏",
+        "胆总管",
+        "门静脉"
+      ]
+    }
+  ],
+  "StartFrame": "D:\\code\\US\\GI\\Label\\Convert\\StartFrame\\StartFrame\\StratFrame_CBD_2D_V1.0.json"
+}

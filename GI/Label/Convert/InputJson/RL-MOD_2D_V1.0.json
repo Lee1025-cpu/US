@@ -1,0 +1,26 @@
+{
+  "Scene": "GI_Abdomen",
+  "MarkMapping": {
+    "0": 2,
+    "1": 1,
+    "2": 0
+  },
+  "NeedReTrans": [],
+  "LogPath": "E:\\Data\\US\\GI\\Temp\\RL-MOD_2D_V1.0\\",
+  "Information": [
+    {
+      "Name": "肝右叶最大斜径切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\RL-MOD_2D_V1.0\\04_completed_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "肝右叶",
+        "肝静脉",
+        "上边缘",
+        "下边缘"
+      ]
+    }
+  ],
+  "StartFrame": "D:\\code\\US\\GI\\Label\\Convert\\StartFrame\\StartFrame\\StratFrame_RL-MOD_2D_V1.0.json"
+}

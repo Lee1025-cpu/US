@@ -1,0 +1,28 @@
+{
+  "Scene": "GI_Abdomen",
+  "MarkMapping": {
+    "0": 2,
+    "1": 1,
+    "2": 0
+  },
+  "NeedReTrans": [],
+  "LogPath": "E:\\Data\\US\\GI\\Temp\\LK-SA_2D_V1.0\\",
+  "Information": [
+    {
+      "Name": "左肾短轴切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\LK-SA_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [
+        "上边界点",
+        "左边界点",
+        "右边界点"
+      ],
+      "Segmentation": [
+        "肾门",
+        "肾脏"
+      ]
+    }
+  ],
+  "StartFrame": "D:\\code\\US\\GI\\Label\\Convert\\StartFrame\\StartFrame\\StratFrame_LK-SA_2D_V1.0.json"
+}
