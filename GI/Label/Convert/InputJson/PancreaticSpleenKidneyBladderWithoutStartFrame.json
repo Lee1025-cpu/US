@@ -9,6 +9,38 @@
   "LogPath": "E:\\Data\\US\\GI\\Temp\\PancreaticSpleenKidneyBladder\\",
   "Information": [
     {
+      "Name": "胰头横切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\PH-TS_2D_V1.0\\04_completed_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "肠系膜上动脉",
+        "下腔静脉",
+        "脾静脉",
+        "腹主动脉",
+        "胰体",
+        "胰头",
+        "胰尾"
+      ]
+    },
+    {
+      "Name": "胰体横切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\PB-TS_2D_V1.0\\04_completed_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "肠系膜上动脉",
+        "下腔静脉",
+        "脾静脉",
+        "腹主动脉",
+        "胰体",
+        "胰头",
+        "胰尾"
+      ]
+    },
+    {
       "Name": "胰尾横切面",
       "FilePath": [
         "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\PT-TS_2D_V1.0\\04_completed_data\\"
@@ -22,6 +54,127 @@
         "胰体",
         "胰头",
         "胰尾"
+      ]
+    },
+    {
+      "Name": "胰头纵切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\PH-LS_2D_V1.0\\04_completed_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "胰头"
+      ]
+    },
+    {
+      "Name": "脾长轴切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\Sp-LA_2D_V1.0\\04_completed_data\\"
+      ],
+      "Keypoint": [
+        "上边界点",
+        "左边界点",
+        "右边界点"
+      ],
+      "Segmentation": [
+        "脾门",
+        "脾脏"
+      ]
+    },
+    {
+      "Name": "左肾长轴切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\LK-LA_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [
+        "上边界点",
+        "左边界点",
+        "右边界点"
+      ],
+      "Segmentation": [
+        "肾门",
+        "肾脏",
+        "肾锥体",
+        "肾窦"
+      ]
+    },
+    {
+      "Name": "右肾长轴切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\RK-LA_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [
+        "上边界点",
+        "左边界点",
+        "右边界点"
+      ],
+      "Segmentation": [
+        "肾门",
+        "肾脏",
+        "肾锥体",
+        "肾窦"
+      ]
+    },
+    {
+      "Name": "左肾短轴切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\LK-SA_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [
+        "上边界点",
+        "左边界点",
+        "右边界点"
+      ],
+      "Segmentation": [
+        "肾门",
+        "肾脏"
+      ]
+    },
+    {
+      "Name": "右肾短轴切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\RK-SA_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [
+        "上边界点",
+        "左边界点",
+        "右边界点"
+      ],
+      "Segmentation": [
+        "肾门",
+        "肾脏"
+      ]
+    },
+    {
+      "Name": "膀胱横切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\Bl-TS_2D_V1.0\\04_completed_data\\"
+      ],
+      "Keypoint": [
+        "上边界点",
+        "下边界点",
+        "左边界点",
+        "右边界点"
+      ],
+      "Segmentation": [
+        "膀胱",
+        "前列腺/子宫"
+      ]
+    },
+    {
+      "Name": "膀胱纵切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\Bl-LS_2D_V1.0\\04_completed_data\\"
+      ],
+      "Keypoint": [
+        "上边界点",
+        "下边界点",
+        "左边界点",
+        "右边界点"
+      ],
+      "Segmentation": [
+        "膀胱",
+        "前列腺/子宫"
       ]
     }
   ]

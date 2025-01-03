@@ -1,0 +1,30 @@
+{
+  "Scene": "GI_Abdomen",
+  "MarkMapping": {
+    "0": 2,
+    "1": 1,
+    "2": 0
+  },
+  "NeedReTrans": [
+  ],
+  "LogPath": "E:\\Data\\US\\GI\\Temp\\Bl-LS_2D_V1.0\\",
+  "Information": [
+    {
+      "Name": "膀胱纵切面",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\Bl-LS_2D_V1.0\\04_completed_data\\"
+      ],
+      "Keypoint": [
+        "上边界点",
+        "下边界点",
+        "左边界点",
+        "右边界点"
+      ],
+      "Segmentation": [
+        "膀胱",
+        "前列腺/子宫"
+      ]
+    }
+  ],
+  "StartFrame": "D:\\code\\US\\GI\\Label\\Convert\\StartFrame\\StartFrame\\StratFrame_Bl-LS_2D_V1.0.json"
+}

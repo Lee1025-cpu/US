@@ -1,0 +1,27 @@
+{
+  "Scene": "GI_Abdomen",
+  "MarkMapping": {
+    "0": 2,
+    "1": 1,
+    "2": 0
+  },
+  "NeedReTrans": [],
+  "LogPath": "E:\\Data\\US\\GI\\Temp\\LL_IVC_2D_V1.0\\",
+  "Information": [
+    {
+      "Name": "肝左叶经下腔静脉",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\LL_IVC_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "肝左叶",
+        "肝左边界",
+        "下腔静脉",
+        "肝静脉",
+        "汇入口"
+      ]
+    }
+  ],
+  "StartFrame": "D:\\code\\US\\GI\\Label\\Convert\\StartFrame\\StartFrame\\StratFrame_LL_IVC_2D_V1.0.json"
+}

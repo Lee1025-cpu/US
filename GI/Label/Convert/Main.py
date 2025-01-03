@@ -37,5 +37,5 @@ if __name__ == '__main__':
     Step1(NeedSkip1)
     
     # Step2：根据TVTInfo中的TrainNames，ValNames，TestNames分别生成对应的Json文件
-    Step2()
+    # Step2()
     

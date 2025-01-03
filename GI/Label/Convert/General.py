@@ -39,6 +39,7 @@ def FindFileName(FilePath):
     ErrMsg = ""
     bHasDcm = False
     for file in os.listdir(FilePath):
+        # if file.endswith('.dcm') and FilePath.strip('/').split('.')[-1] == file.split('.')[-2]: # 后半部分逻辑判断是为了处理一个文件夹下两个dcm的情况
         if file.endswith('.dcm'):
             DcmPath = FilePath + file
             bHasDcm = True
@@ -276,7 +277,7 @@ def GeneralFunc(json_data):
                                     
                                 images, annotations, JsonSavingPaths = {}, [], []
                                 FilePath = SrcPath + FileId + '/'
-                                JsonSavingPath = FilePath + ImgId + '.json'  # 名字采用ImgId
+                                JsonSavingPath = FilePath + ImgId + 'withSF.json'  # 名字采用ImgId
 
                                 # Read Path
                                 if 'StartFrame' in json_data.keys():
@@ -443,7 +444,8 @@ def GeneralFunc(json_data):
                                                         # 求segmentation部分
                                                         contour = np.flip(contour, axis=0)
                                                         segmentation = contour.ravel().tolist()
-                                                        annotation["segmentation"][LabelName]["Loc"] = segmentation# in y, x order
+                                                        # annotation["segmentation"][LabelName]["Loc"] = segmentation# in y, x order
+                                                        annotation["segmentation"][LabelName]["Loc"].append(segmentation) # in y, x order
 
                                         # 将评分信息添加到annotation。
                                         # 对于GI 需要将分数映射

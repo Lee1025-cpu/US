@@ -1,0 +1,25 @@
+{
+  "Scene": "GI_Abdomen",
+  "MarkMapping": {
+    "0": 2,
+    "1": 1,
+    "2": 0
+  },
+  "NeedReTrans": [],
+  "LogPath": "E:\\Data\\US\\GI\\Temp\\GB-LA_2D_V1.0\\",
+  "Information": [
+    {
+      "Name": "胆囊长轴",
+      "FilePath": [
+        "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\GB-LA_2D_V1.0\\03_second_review_data\\"
+      ],
+      "Keypoint": [],
+      "Segmentation": [
+        "胆囊",
+        "胆囊颈",
+        "胆囊壁"
+      ]
+    }
+  ],
+  "StartFrame": "D:\\code\\US\\GI\\Label\\Convert\\StartFrame\\StartFrame\\StratFrame_GB-LA_2D_V1.0.json"
+}

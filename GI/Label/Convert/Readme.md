@@ -4,6 +4,7 @@
 
 快速上手：
     Vscode打开US文件夹，并安装依赖库。
+    
     0. 创建虚拟环境并安装依赖库：
         cd到US路径层级
         conda create --name <env> --file .\requirements.txt -y
