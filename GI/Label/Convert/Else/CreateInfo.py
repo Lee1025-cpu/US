@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 # @Author  : yunxu.li@united-imaging.com
-# @File    : CreatePaths.py
+# @File    : CreateInfo.py
 # @Time    : 2024/12/04 17:27
 # @Desc    :
 import sys
@@ -13,11 +13,13 @@ from tqdm import tqdm
 from Tools.TxtProcess import *
 from Tools.ImageIO.ImageIO import *
 
+# 所有切面的类别和索引
 JsonPath = {
         103: "D:\\code\\US\\GI\\Label\\Convert\\InputJson\\GImap.json",
         68: "D:\\code\\US\\GI\\Label\\Convert\\InputJson\\map_v1.json"
     }
 
+# 所有切面的文件夹路径
 Paths = [
         "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\LL-AA_2D_V2.0\\03_second_review_data\\",
         "\\\\isi-wh\\US\\05_SW\\LabelData\\ImageAnalysisAnnotation\\GI\\LL_IVC_2D_V1.0\\03_second_review_data\\",
@@ -57,11 +59,20 @@ def GetJsonPath(Path, id):
     return False
 
 
-def Func(ClassJsonPath, SavingPath, ClsNum):
+def Func(ClassJsonPath, TrainIdsPath, ValIdsPath, SavingPath, ClsNum):
+    """根据Train和Val Ids生成TrainInfo.txt和ValInfo.txt
+
+    Args:
+        ClassJsonPath (str): 类别Json文件路径
+        TrainIdsPath (str): Train Ids文件路径
+        ValIdsPath (str): Val Ids文件路径
+        SavingPath (str): 生成的TrainInfo.txt和ValInfo.txt保存文件夹的路径
+        ClsNum (int): 所有类别数量
+    """
     mapjson = json.load(open(ClassJsonPath, 'r', encoding='utf-8'))
     
-    TrainIds = ReadTxtToList("D:\\code\\US\\GI\\Label\\Convert\\Else\\TrainIds.txt")
-    ValIds = ReadTxtToList("D:\\code\\US\\GI\\Label\\Convert\\Else\\ValIds.txt")
+    TrainIds = ReadTxtToList(TrainIdsPath)
+    ValIds = ReadTxtToList(ValIdsPath)
 
     PointWidth = 5
     
@@ -72,9 +83,9 @@ def Func(ClassJsonPath, SavingPath, ClsNum):
         Qiemian = path.split('\\')[-3]
         
         for i in tqdm(range(len(AllIds))):
-            if AllIds[i] == "UIH_2024102413594529_m_6_1024-005_2024102413594529_m_6.dcm_ls2s":
-                i = i
-                pass
+            # if AllIds[i] == "UIH_2024102413594529_m_6_1024-005_2024102413594529_m_6.dcm_ls2s":
+            #     i = i
+            #     pass
             
             if AllIds[i] in ValIds or AllIds[i][:-4] in ValIds or AllIds[i] + ".dcm" in ValIds:
                 JsonPath = path + AllIds[i] + "/" + AllIds[i] + "withSF.json"
@@ -233,8 +244,12 @@ if __name__ == '__main__':
     # PreFunc()
     # MapFunc()
 
+    # 所有切面的划分的类别数
     ClsNum = 68
     ClassJsonPath = JsonPath[ClsNum]
     
+    TrainIdsPath = "D:\\code\\US\\GI\\Label\\Convert\\Else\\TrainIds.txt"
+    ValIdsPath = "D:\\code\\US\\GI\\Label\\Convert\\Else\\ValIds.txt"
     SavingPath = "D:\\code\\US\\GI\\Label\\Convert\\Else\\"
+    
     Func(ClassJsonPath, SavingPath, ClsNum)
